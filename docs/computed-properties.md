@@ -296,7 +296,7 @@ In the above example, without a computed property, we would have no way to expli
 
 In Livewire, another way to cut down on boilerplate in your components is by omitting the `render()` method entirely. When omitted, Livewire will use its own `render()` method returning the corresponding Blade view by convention.
 
-In these case, you obviously don't have a `render()` method from which you can pass data into a Blade view.
+In these cases, you obviously don't have a `render()` method from which you can pass data into a Blade view.
 
 Rather than re-introducing the `render()` method into your component, you can instead provide that data to the view via computed properties:
 
